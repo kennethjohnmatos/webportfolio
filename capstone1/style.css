@@ -2,14 +2,14 @@
 	font-family: 'Nunito', sans-serif;
 }
 
-img {
-	padding-left: 12px;
+/*#landing, #projects, #contact, #tools {
+	margin-bottom: 0;
+}*/
+
+.card-title {
+	font-weight: bold;
 }
 
-.text-dark {
-	padding-left: 12px;
-}
-
-.background-image {
-	background-image: url(./images/background-image.jpg);
+.nav-link {
+	color: white;
 }
