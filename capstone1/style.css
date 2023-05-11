@@ -2,14 +2,18 @@
 	font-family: 'Nunito', sans-serif;
 }
 
-/*#landing, #projects, #contact, #tools {
-	margin-bottom: 0;
-}*/
-
 .card-title {
 	font-weight: bold;
 }
 
 .nav-link {
 	color: white;
+}
+
+.navbar-toggler {
+	background-color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #adb5bd;
 }
