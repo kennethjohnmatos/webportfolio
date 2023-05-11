@@ -1,0 +1,15 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+img {
+	padding-left: 12px;
+}
+
+.text-dark {
+	padding-left: 12px;
+}
+
+.background-image {
+	background-image: url(./images/background-image.jpg);
+}
