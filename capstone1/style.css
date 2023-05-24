@@ -40,7 +40,7 @@ body {
 }
 
 .col-md-11 {
-	background-color: #0F0101;
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 20px;
 }
 
@@ -49,11 +49,10 @@ body {
 }
 
 #projects {
-	background-color: #0F0101;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 h1 {
-	/*font-family: "OnePiece", sans-serif;*/
 	font-weight: bolder;
 }
 
