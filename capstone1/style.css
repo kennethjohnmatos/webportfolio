@@ -1,9 +1,23 @@
+@font-face {
+	font-family: "OnePiece";
+	src: url(./font/onepiecefont.ttf) format('truetype');
+}
+
 * {
 	font-family: 'Nunito', sans-serif;
 }
 
 .card-title {
 	font-weight: bold;
+}
+
+nav {
+	background-color: #0F0101;
+}
+
+
+footer {
+	background-color: #0F0101;
 }
 
 .nav-link {
@@ -16,4 +30,44 @@
 
 .nav-link:focus, .nav-link:hover {
     color: #adb5bd;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.col-md-11 {
+	background-color: #0F0101;
+	padding: 20px;
+}
+
+#contact .col-xs-10 {
+	background-color: #0F0101;
+}
+
+#projects {
+	background-color: #0F0101;
+}
+
+h1 {
+	/*font-family: "OnePiece", sans-serif;*/
+	font-weight: bolder;
+}
+
+div > a {
+	font-family: "OnePiece", sans-serif;
+	letter-spacing: 3px;
+}
+
+.carousel-item {
+	height: 300px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
