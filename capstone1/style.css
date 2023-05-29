@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
 }
 
-.col-md-11 {
+.html, .bootstrap, .nodejs{
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: 20px;
 }
